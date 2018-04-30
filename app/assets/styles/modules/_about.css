@@ -1,0 +1,74 @@
+.about {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("../../assets/images/underwater-overlay.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+
+
+  &__container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+  }
+
+
+  &__image{
+    border: .5px solid white;
+    margin-top: 130px;
+    
+    @media (min-width: 991px) {
+      margin-top: 0;
+    }
+  }
+
+  &__avatar {
+    border-radius: 100%;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+
+    @media (min-width: 991px){
+      @mixin centerer;
+      padding: 50px;
+    }
+    
+  }
+
+  &__description {
+    background-color: white;
+    color:#000;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+
+    @mixin atMedium {
+      font-size: 40px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    font-weight: 300;
+
+    @mixin atMedium {
+      font-size: 30px;
+    }
+  }
+
+  &__description {
+    font-size: 16px;
+    font-weight: 300;
+
+    @mixin atMedium {
+      font-size: 20px;
+    }
+  }
+}

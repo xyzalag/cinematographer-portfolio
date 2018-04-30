@@ -1,0 +1,140 @@
+.project {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	transition: all .25s ease-out;
+	color: #000;
+	border: 1px dotted black;
+
+	@mixin atMedium {
+		border: 1px dotted transparent;
+	}
+
+	@mixin atLarger{
+		margin-bottom: 60px;
+	}
+
+	&--bg {
+
+		&:hover{
+			background-image: url('../../assets/images/color_palette.png');
+    		background-size: cover;
+   			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&:hover {
+		border: 1px solid black;
+		color: white;
+	}
+	
+
+	&__column {
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+		@mixin atMedium {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+
+		&--left {
+			margin-left: 0;
+			margin-right: 0;
+
+			@mixin atMedium {
+				margin-left: 40px;
+			    margin-right: 20px;
+			}
+		}
+
+		&--right {
+			margin-right: 0;
+			margin-left: 0;
+
+			@mixin atMedium {
+				margin-left: 40px;
+			    margin-right: 20px;
+			}
+		}
+	}
+
+	&__thumbnail{
+		text-align: center;
+	}
+
+	&__image {
+		position: relative;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+		width: 100%;
+
+		@mixin atMedium {
+			width: auto;
+		}
+	}
+	
+
+
+	&__play {
+		@mixin centerer;
+		visibility: hidden;
+		width: 50px;
+		height: 50px;
+
+
+		@mixin atSmall {
+			width: auto;
+			height: auto;
+		}
+
+		&:hover{
+			cursor: pointer;
+		}
+	}
+
+	&__description {
+		transition: backgoround-color .8s ease-out;
+
+		&--bg {
+			display: flex;
+			justify-content: center; 
+			align-items: center; 
+		}
+
+	}
+
+	&__title {
+		text-align: center;
+		font-size: 1.8rem;
+		letter-spacing: 1px;
+		font-weight: 300;
+
+		@mixin atMedium {
+			font-size: 2.3rem;
+		}
+
+		@mixin atLarger {
+			font-size: 2.5rem;
+		}
+
+		&--bg {
+			font-size: 1.8rem;
+			font-weight: 600;
+
+			@mixin atMedium {
+				font-size: 3.5rem;
+			}
+		}
+	}
+
+	&__info {
+		font-size: 20px;
+	}
+
+
+	&__color-palette {
+		display: block;
+		margin: 0 auto;
+	}
+}
