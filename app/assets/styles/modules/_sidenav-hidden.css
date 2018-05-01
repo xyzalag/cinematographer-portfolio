@@ -39,7 +39,7 @@
 		}
 
 		@mixin atLarger {
-			height: 250px;
+			height: 180px;
 		}
 
 		&__title {

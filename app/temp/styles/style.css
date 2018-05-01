@@ -1147,7 +1147,7 @@ body.compensate-for-scrollbar{overflow:hidden}
 @media (min-width: 1600px) {
 
 .home__footer__text {
-    			font-size: 3rem
+    			font-size: 2rem
     	}
   }
 
@@ -1254,7 +1254,7 @@ body.compensate-for-scrollbar{overflow:hidden}
 @media (min-width: 1600px) {
 
 .sidenav-hidden__logo {
-			height: 250px
+			height: 180px
 	}
   }
 
