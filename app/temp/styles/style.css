@@ -1226,6 +1226,11 @@ body.compensate-for-scrollbar{overflow:hidden}
 
 }
 
+.sidenav-hidden--smaller {
+		background-color: rgba(0,0,0,0.9);
+		background-image: none;
+	}
+
 .sidenav-hidden__header {
 	    background-color: transparent;
 	    padding: 10px 0;
@@ -1329,6 +1334,34 @@ body.compensate-for-scrollbar{overflow:hidden}
 		color: #20505C;
 	}
 
+.open-icon-sm {
+	float: left;
+	color: white;
+	padding: 20px;
+	font-size: 1.7rem;
+	cursor:pointer;
+	transition: .3s all ease-out;
+	margin-left: 10px;
+}
+
+@media (min-width: 800px) {
+
+.open-icon-sm {
+		font-size: 2.5rem
+}
+  }
+
+@media (min-width: 1600px) {
+
+.open-icon-sm {
+		font-size: 3rem
+}
+  }
+
+.open-icon-sm:hover {
+		color: #20505C;
+	}
+
 .lang-icon {
 	float: right;
 	padding: 20px;
@@ -1368,6 +1401,21 @@ body.compensate-for-scrollbar{overflow:hidden}
 @media (min-width: 1600px) {
 
 .close-icon {
+    	font-size: 50px
+}
+  }
+
+.close-icon-sm {
+	position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media (min-width: 1600px) {
+
+.close-icon-sm {
     	font-size: 50px
 }
   }

@@ -1,21 +1,7 @@
-// import RevealOnScroll from './modules/RevealOnScroll';
 import $ from 'jquery';
-// import StickyHeader from './modules/StickyHeader';
 const fancybox = require("@fancyapps/fancybox");
 import smoothScroll from 'jquery-smooth-scroll';
 
-// var mobileMenu = new MobileMenu();
-// new RevealOnScroll($(".feature-item"), "85%");
-// new RevealOnScroll($(".testimonial"), "60%");
-// var stickyHeader = new StickyHeader();
-// var modal = new Modal();
-
-//SUBPAGE HERO SHOW REEL 
-$(document).ready(function(){
-  $('.project__play').click(function(){
-
-  });
-});
 
 //SCROLL TO THE PROJECTS
 $(document).ready(function(){
@@ -62,6 +48,18 @@ $(document).ready(function() {
   });
 });
 
+//SIDENAV LEFT TOGGLE
+$(document).ready(function() {
+  $('.open-icon-sm').click(function() {
+    $('.sidenav-hidden').css({"width":"25%"});
+    $('.main').css({"margin-left":"25%"});
+  });
+  $('.close-icon-sm').click(function() {
+    $('.sidenav-hidden').css({"width":"0"});
+    $('.main').css({"margin-left":"0"});
+  });
+});
+
 //ICON DISPLAY ON HOVER
 $(document).ready(function() {
   $('.project').mouseenter(function() {
@@ -96,3 +94,20 @@ $('[data-fancybox]').fancybox({
     },
 });
 
+//FANCYBOX 
+$('.fancyb').fancybox({
+  backFocus: true,
+   helpers: {
+    overlay: {
+      locked: false
+    }
+  },
+    youtube : {
+        controls : 0,
+        showinfo : 0
+    },
+    vimeo : {
+        color : 'f00',
+        autoplay: 0
+    },
+});
