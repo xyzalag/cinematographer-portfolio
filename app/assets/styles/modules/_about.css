@@ -8,21 +8,19 @@
   background-size: cover;
   overflow-x: hidden;
 
+    @mixin atMedium {
+      height: 100vh;
+    }
 
-  &__container {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -45%);
+  &__row {
+    margin-top: 100px;
   }
 
-
   &__image{
-    border: .5px solid white;
-    margin-top: 130px;
+    position: relative;
     
     @media (min-width: 991px) {
-      margin-top: 0;
+      border: .5px solid white;
     }
   }
 
@@ -40,10 +38,6 @@
     
   }
 
-  &__description {
-    background-color: white;
-    color:#000;
-  }
 
   &__title {
     font-size: 20px;
@@ -66,9 +60,13 @@
   &__description {
     font-size: 16px;
     font-weight: 300;
+    background-color: white;
+    color:#000;
+    text-align: center;
 
     @mixin atMedium {
       font-size: 20px;
+      text-align: left;
     }
   }
 }

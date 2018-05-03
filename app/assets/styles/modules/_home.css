@@ -1,10 +1,13 @@
 .home {
 	width: 100vw;
-	height: 100vh;
-	overflow-y: hidden;
+	min-height: 100vh;
 	background-color: #FFF;
-	position: relative;
 	overflow-x: hidden;
+
+    @mixin atLarge {
+        height: 100vh;
+        overflow-y: hidden;
+    }
 
 
  	&__bg {
@@ -15,7 +18,7 @@
  	}
 
  	&__container {
- 		height:100%;
+ 		min-height: 100%;
  	}
 
  	&__logo {
@@ -23,16 +26,13 @@
  		height: 110px;
  		display: block;
  		margin: 0 auto;
- 		margin-top: 10px;
+ 		margin-top: 70px;
+        margin-bottom: 50px;
 
- 		&__container {
- 			@mixin centerer;
- 		}
 
  		@mixin atSmall {
  			width: 350px;
  			height: 175px;
- 			margin-top: 20px;
  		}
 
  		@mixin atMedium {
@@ -41,16 +41,16 @@
  		}
 
  		@mixin atLarge {
- 			width: 600px;
+ 			width: 550px;
  			height: 300px;
  			margin-top: 60px;
+            margin-bottom: 30px;
  		}
  	}
 
 	&__row {
-		z-index: 3;
 
-		@mixin atMedium {
+		@mixin atLarge {
 			margin-top: 50px;
 		}
 		
@@ -59,17 +59,21 @@
 	&__col {
 		padding-top: .5rem;
     	padding-bottom: .5rem;
-    	background-color: rgba(86,61,124,.15);
-    	border: 1px solid rgba(86,61,124,.2);
+    	background-color: transparent;
+    	border: .5px solid white;
     	transition: all .3s ease-out;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     	@mixin atLarge {
+            margin-left: 10px;
+            margin-right: 10px;
     		padding-top: .75rem;
     		padding-bottom: .75rem;
     		&:hover {
-    		background-color: rgba(0,0,0,.15);
-    		border: 1px solid rgba(0,0,0,.2);
-    		transform: translateY(40px);
+    		background-color: rgba(0,0,0,.3);
+    		border: .5px solid rgba(0,0,0,.2);
+    		transform: translateY(20px);
     		}
     	}
     }
@@ -87,18 +91,16 @@
     	}
 
     	@mixin atLarge {
-    		font-size: 3rem;
+    		font-size: 2.5rem;
     	}
-    	@mixin atLarger {
-    		font-size: 3.5rem;
-    	}
+
+        &:hover{
+            font-weight: bold;
+        }
     }
 
     &__footer {
-    	position: absolute;
-    	bottom: 0;
-    	left: 0;
-    	right: 0;
+        margin-bottom: 30px;
 
     	&__text {
     		color: #FFF;
@@ -118,4 +120,9 @@
     	}
     }
 
+}
+
+.no-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }

@@ -34,31 +34,32 @@ $(document).ready(function(){
     });
 });
 
+
 //SIDENAV LEFT TOGGLE
-$(document).ready(function() {
-  $('.open-icon').click(function() {
-    $('.sidenav-hidden').css({"width":"100%"});
-    $('.main').css({"margin-left":"100%"});
-    $('body').css({"background-color":"rgba(0,0,0,0.4)"});
+if ( $(window).width() > 1024) {
+  $(document).ready(function() {
+    $('.open-icon').click(function() {
+      $('.sidenav-hidden').css({"width":"25%"});
+      $('.main').css({"margin-left":"25%"});
+    });
   });
+  } else {
+  $(document).ready(function() {
+    $('.open-icon').click(function() {
+      $('.sidenav-hidden').css({"width":"100%"});
+      $('.main').css({"margin-left":"100%"});
+      });
+    });
+  }
+
+$(document).ready(function() {
   $('.close-icon').click(function() {
     $('.sidenav-hidden').css({"width":"0"});
     $('.main').css({"margin-left":"0"});
-    $('body').css({"background-color":"white"});
   });
 });
 
-//SIDENAV LEFT TOGGLE
-$(document).ready(function() {
-  $('.open-icon-sm').click(function() {
-    $('.sidenav-hidden').css({"width":"25%"});
-    $('.main').css({"margin-left":"25%"});
-  });
-  $('.close-icon-sm').click(function() {
-    $('.sidenav-hidden').css({"width":"0"});
-    $('.main').css({"margin-left":"0"});
-  });
-});
+
 
 //ICON DISPLAY ON HOVER
 $(document).ready(function() {
@@ -89,25 +90,25 @@ $('[data-fancybox]').fancybox({
         color : 'f00',
         autoplay: 0
     },
-    beforeShow: function() {
-      $("html, body").animate({ scrollTop: 0 }, 300);
-    },
 });
 
-//FANCYBOX 
-$('.fancyb').fancybox({
-  backFocus: true,
-   helpers: {
-    overlay: {
-      locked: false
-    }
-  },
-    youtube : {
-        controls : 0,
-        showinfo : 0
-    },
-    vimeo : {
-        color : 'f00',
-        autoplay: 0
-    },
-});
+// //FANCYBOX 
+// $('[data-fancybox]').fancybox({
+//   backFocus: true,
+//    helpers: {
+//     overlay: {
+//       locked: false
+//     }
+//   },
+//     youtube : {
+//         controls : 0,
+//         showinfo : 0
+//     },
+//     vimeo : {
+//         color : 'f00',
+//         autoplay: 0
+//     },
+//     beforeShow: function() {
+//       $("html, body").animate({ scrollTop: 0 }, 300);
+//     },
+// });

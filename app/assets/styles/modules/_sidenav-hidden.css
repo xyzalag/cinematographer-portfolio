@@ -9,17 +9,10 @@
     overflow-x: hidden;
     overflow-y: hidden;
     padding-top: 20px;
-    background-image: url('../../assets/images/underwater-overlay-dark.jpg');
-    background-size: cover;
-   	background-position: center;
-	background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.9);
 	box-shadow: 0 0px 20px rgba(0, 0, 0, .9);
 	transition: 0.5s;
 
-	&--smaller {
-		background-color: rgba(0,0,0,0.9);
-		background-image: none;
-	}
 
 	&__header {
 	    background-color: transparent;
@@ -109,30 +102,6 @@
 	}
 }
 
-.open-icon-sm {
-	float: left;
-	color: white;
-	padding: 20px;
-	font-size: 1.7rem;
-	cursor:pointer;
-	transition: .3s all ease-out;
-	margin-left: 10px;
-
-	@mixin atMedium {
-		font-size: 2.5rem;
-	}
-
-	@mixin atLarger {
-		font-size: 3rem;
-	}
-
-	&:hover {
-		color: $mainBlue;
-	}
-}
-
-
-
 .lang-icon {
 	float: right;
 	padding: 20px;
@@ -167,15 +136,4 @@
     }
 }
 
-.close-icon-sm {
-	position: absolute;
-    top: 20px;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-
-    @mixin atLarger {
-    	font-size: 50px;
-    }
-}
 
