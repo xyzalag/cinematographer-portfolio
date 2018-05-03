@@ -31,7 +31,6 @@ gulp.task('copyGeneralFiles', ['deleteDistFolder'], function() {
     '!./app/film.html',
     '!./app/music-videos.html',
     '!./app/commerce.html',
-    '!./app/commerce-second-version.html',
     '!./app/assets/images/**',
     '!./app/assets/styles/**',
     '!./app/assets/scripts/**',
@@ -59,7 +58,7 @@ gulp.task('useminTrigger', ['deleteDistFolder'], function() {
 });
 
 gulp.task('usemin',['styles', 'scripts'], function() {
-  return gulp.src(["./app/index.html", "./app/about.html", "./app/contact.html","./app/commerce.html","./app/music-videos.html","./app/film.html", "./app/commerce-second-version.html"])
+  return gulp.src(["./app/index.html", "./app/about.html", "./app/contact.html","./app/commerce.html","./app/music-videos.html","./app/film.html"])
     .pipe(usemin({
       css: [function(){return rev()}, function() {return cssnano()}],
       js: [function() {return rev()}, function() {return uglify()}]
