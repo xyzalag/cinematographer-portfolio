@@ -1776,6 +1776,14 @@ body.compensate-for-scrollbar{overflow:hidden}
 }
   }
 
+.about__container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
 .about__row {
     margin-top: 100px;
   }

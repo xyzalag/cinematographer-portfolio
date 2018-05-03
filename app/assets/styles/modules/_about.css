@@ -12,6 +12,11 @@
       height: 100vh;
     }
 
+
+  &__container{
+    @mixin centerer;
+  }
+
   &__row {
     margin-top: 100px;
   }
@@ -37,7 +42,6 @@
     }
     
   }
-
 
   &__title {
     font-size: 20px;
