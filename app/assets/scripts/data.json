@@ -20,12 +20,6 @@
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
-            "video_link" : "https://vimeo.com/191947042"
-         },
-         {
             "title" : "HR PROMO CLIP",
             "thumbnail" : "commerce-4.jpg",
             "color_palette" : "color-commerce-4.png",
@@ -51,105 +45,92 @@
          }
       ],
     "films" : [
-    	         {
+               {
             "title" : "VOID",
             "thumbnail" : "film-1.jpg",
             "color_palette" : "color-film-1.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "SIMIA",
+            "thumbnail" : "film-2.jpg",
+            "color_palette" : "color-film-2.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "CREEPY DUDE",
+            "thumbnail" : "film-3.jpg",
+            "color_palette" : "color-film-3.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "BATH TIME",
+            "thumbnail" : "film-4.jpg",
+            "color_palette" : "color-film-4.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "CONFUSED GUY IN THE DARK",
+            "thumbnail" : "film-5.jpg",
+            "color_palette" : "color-film-5.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "HIGH SCHOOL SUCKS",
+            "thumbnail" : "film-6.jpg",
+            "color_palette" : "color-film-6.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
-            "video_link" : "https://vimeo.com/191947042"
-         },
-         {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "INSOMNIA",
+            "thumbnail" : "film-7.jpg",
+            "color_palette" : "color-film-7.png",
             "video_link" : "https://vimeo.com/191947042"
          }
-
     ],
     "music_videos" : [
-    	    {
+          {
             "title" : "PINK LADY - \"I'M SO COOL\"",
-            "thumbnail" : "commerce-1.jpg",
+            "thumbnail" : "clips-1.jpg",
             "color_palette" : "color-clips-1.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "ONE DIRECTION - \"FAMOUS\"",
+            "thumbnail" : "clips-2.jpg",
+            "color_palette" : "color-clips-2.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "STEFAN MONIN - \"INFLOW\"",
+            "thumbnail" : "clips-3.jpg",
+            "color_palette" : "color-clips-3.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "BASIC WHITE GIRL <br>\"CRAZY\"",
+            "thumbnail" : "clips-4.jpg",
+            "color_palette" : "color-clips-4.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "SAM SMITH <br> \"SAD PIANO SONG\"",
+            "thumbnail" : "clips-5.jpg",
+            "color_palette" : "color-clips-5.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "FORUM <br> \"LATO W MOIM MIEŚCIE\"",
+            "thumbnail" : "clips-6.jpg",
+            "color_palette" : "color-clips-6.png",
             "video_link" : "https://vimeo.com/191947042"
          },
          {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
-            "video_link" : "https://vimeo.com/191947042"
-         },
-         {
-            "title" : "REALITY GAMES",
-            "thumbnail" : "commerce-1.jpg",
-            "color_palette" : "color-commerce-1.png",
+            "title" : "JUSTIN BIEBER <br> \"BABY BABY\"",
+            "thumbnail" : "clips-7.jpg",
+            "color_palette" : "color-clips-7.png",
             "video_link" : "https://vimeo.com/191947042"
          }
-      ]
+    ]
    }
 }
