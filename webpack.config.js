@@ -18,7 +18,7 @@ module.exports = {
           presets: ['es2015']
         },
         test: /\.js$/,
-        exclude: /node_modules/
+        exclude: /node_modules/,
       }
     ]
   },

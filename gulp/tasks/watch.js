@@ -12,7 +12,7 @@ gulp.task('watch', function(){
     }
   });
 
-  watch('./app/index.html',['./app/commerce.html'],['./app/commerce2.html'], ['./app/about.html'], ['./app/film.html'], ['./app/music-videos.html'], ['./app/about.html'], ['./app/contact.html'], function(){
+  watch('./app/index.html',['./app/film.html'],['./app/about.html'],['./app/commerce.html'],['./app/music-videos.html'], function(){
     browserSync.reload();
   });
 

@@ -1437,6 +1437,44 @@ body.compensate-for-scrollbar{overflow:hidden}
 		color: white;
 	}
 
+/* 	&:hover .project__description:nth-of-type(even) {
+		background-color: black;
+		transform: translateX(-70px);
+	}
+
+	&:hover .project__thumbnail:nth-of-type(odd) {
+		transform: translateX(70px);
+	} */
+
+.project:hover .project__description {
+		background-color: black;
+	}
+
+@media (min-width: 1010px) {
+
+		.project:hover .project__description:nth-of-type(odd) {
+			z-index: 2;
+			-webkit-transform: translate(70px, -20px);
+			        transform: translate(70px, -20px);
+		}
+
+		.project:hover .project__thumbnail:nth-of-type(even) {
+			z-index: 1;
+			-webkit-transform: translateX(-70px);
+			        transform: translateX(-70px);
+		}
+
+		.project:hover .project__description:nth-of-type(even) {
+			-webkit-transform: translate(-70px, 20px);
+			        transform: translate(-70px, 20px);
+		}
+
+		.project:hover .project__thumbnail:nth-of-type(odd) {
+			-webkit-transform: translateX(70px);
+			        transform: translateX(70px);
+		}
+  }
+
 .project__column {
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -1478,7 +1516,27 @@ body.compensate-for-scrollbar{overflow:hidden}
 
 .project__thumbnail{
 		text-align: center;
+		transition: all .5s ease;
 	}
+
+.project__thumbnail__overlay {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  margin: 0 auto;
+		  -webkit-transform: translate(-50%, -50%);
+		          transform: translate(-50%, -50%);
+/* 		  width: 93.5%;
+		  height: 98%; */
+		  width: 100%;
+		  height: 100%;
+/* 		  bottom: 0;
+		  left: 0;
+		  right: 0; */
+		  opacity: 1;
+		  transition: .5s ease;
+		  background-color: #000;
+		}
 
 .project__image {
 		position: relative;
@@ -1517,7 +1575,7 @@ body.compensate-for-scrollbar{overflow:hidden}
 		}
 
 .project__description {
-		transition: backgoround-color .8s ease-out;
+		transition: all .5s ease;
 
 	}
 
@@ -1568,6 +1626,14 @@ body.compensate-for-scrollbar{overflow:hidden}
 		display: block;
 		margin: 0 auto;
 	}
+
+.project:nth-of-type(odd) {
+	padding-bottom: 10px;
+}
+
+.project:nth-of-type(even) {
+	padding-top: 10px;
+}
 
 .parallax {
 
