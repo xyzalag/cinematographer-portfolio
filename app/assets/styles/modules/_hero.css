@@ -1,0 +1,109 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/images/viewfinder-mobile.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    @mixin atMedium {
+      background-image: url('../../assets/images/viewfinder.png');
+      background-size: cover;
+      align-items: flex-start;
+      justify-content: flex-end;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+
+    &__anchor {
+      display: none;
+      margin-bottom: 30px;
+
+      @mixin atMedium {
+        display: flex;
+      }
+
+      .hero__btn {
+        font-size: 1.8rem;
+        text-align: center;
+      }
+    }
+
+    &__content {
+      background-color: pink;
+      padding: 10px 20px;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      background-color: rgba(0, 0, 0, .5);
+
+      @mixin atMedium {
+        padding: 30px 40px;
+        width: 80%;
+        width: 350px;
+        margin: unset;
+
+        &--larger {
+          width: 600px;
+        }
+      }
+
+      @mixin atLarger {
+        width: 500px;
+        padding: 50px 60px;
+      }
+    }
+
+    &__title {
+        color: #fff;
+        font-weight: lighter;
+        text-transform: uppercase;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        margin: 30px 0 40px 0;
+
+        @mixin atMedium {
+          font-size: 4rem;
+        }
+    }
+
+    &__btn {
+        background-color: transparent;
+        border: .5px solid white;
+        text-decoration: none;
+        padding: .8rem 1.6rem;
+        display: inline-block;
+        outline: none;
+        transition: all 0.25s ease-out;
+        font-size: 1.2rem;
+        color: white;
+        letter-spacing: 5px;
+
+        @mixin atMedium {
+          font-size: 2rem;
+          padding: 1.1rem 1.9rem;
+        }
+
+        @mixin atLarger {
+          font-size: 2rem;
+          padding: 1.3rem 2.1rem;
+        }
+
+        &:hover{
+          background-color: rgba(0,0,0,0.5);
+          border: .5px solid transparent;
+          transform: scale(0.9);
+        }
+     }
+
+}

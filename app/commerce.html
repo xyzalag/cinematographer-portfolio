@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-  <title>Michał Kidawa Cinematography</title>
+  <title>Commerce | Michał Kidawa Cinematography</title>
   <meta name="keywords" content="Michał Kidawa, Cinematography, Cimnematographer, Filmmaker, Portfolio, Kraków">
   <meta name="description" content="Michał Kidawa Cimnematographer Portfolio">
   <link rel="shortcut icon" href="assets/images/favicon.png"/>
@@ -20,36 +20,35 @@
 </head>
 <body>
 
-  <header>
-    <div class="sidenav-hidden__header">
-      <span class="open-icon" id="open-icon">&#9776; </span>
-      <span class="lang-icon">PL</span>
-      <div class="sidenav-hidden__logo"><img class="sidenav-hidden__logo" src="assets/images/mklogo-simple.png" alt="Michał Kidawa Logo"/></div>
-      
-      <div class="sidenav-hidden__logo__title">Michał Kidawa Cinematography --  Portfolio</div>
+  <header class="main-header">
+    <div class="wrapper">
+      <img src="assets/images/logo-music.png" class="main-header__logo" alt="commercial logo">
+      <div class="hamburger collapsed">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>  
     </div>
-    <div class="sidenav-hidden" id="sidenav">
+  </header>
+
+  <div class="sidenav-hidden" id="sidenav">
       <ul class="sidenav-hidden__links">
-        <a href="javascript:void(0)" class="close-icon" id="close-icon">&times;</a>
-        <li><a href="commerce.html">Commerce</a></li>s
+        <li><a href="commerce.html">Commerce</a></li>
         <li><a href="film.html">Film</a></li>
         <li><a href="music-videos.html">Music Videos</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
-  </header>
 
-  <div class="parallax parallax--hero" id="hero">
-    <div class="large-hero">
-      <div class="large-hero__text-content">
-        <div class="container">
-          <h1 class="large-hero__title">commerce</h1>
-          <p><a data-fancybox href="https://vimeo.com/191947042" data-small-btn="true" class="large-hero__btn">REEL <i class="fa fa-play" aria-hidden="true"></i></a></p>
-        </div>
+  <div class="hero">
+    <div class="wrapper hero__wrapper">
+      <div class="hero__content">
+        <h1 class="hero__title">COMMERCE</h1>
+        <a data-fancybox href="https://vimeo.com/327457112" data-small-btn="true" class="hero__btn">REEL <i class="fa fa-play" aria-hidden="true"></i></a>
       </div>
-      <div class="scroll-down">
-        <a href=#main class="scroll"><i class="fa fa-3x fa-angle-double-down" aria-hidden="true"></i></a>
+      <div class="hero__anchor">
+        <a href="#main" data-small-btn="true" class="hero__btn scroll">GO TO PROJECTS <i class="fa fa-angle-down" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
@@ -112,8 +111,7 @@
             <img class="project__color-palette" src="assets/images/commerce/color-commerce-4.png"/>
           </div>
           <div class="col-md order-1 order-md-12 project__column project__column--right project__thumbnail">
-            <img class="project__image" src="assets/images/commerce/commerce-4.jpg">
-            <a data-fancybox href="https://vimeo.com/191947042">
+            <img clafancybox href="https://vimeo.com/191947042">
             <img class="project__play" src="assets/images/play-icon.png">
           </a>
           </div>
@@ -155,13 +153,11 @@
             <img class="project__color-palette" src="assets/images/commerce/color-commerce-7.png"/>
           </div>
         </div> -->
-
-
       </div>
   </main>
 
   <a href="javascript:void(0);" class="scroll-up fa fa-angle-double-up fa-3x" title="Scroll to Top" style="display: none;"  aria-hidden="true"></a>
-  
+
   <footer class="footer">
     <div class="wrapper">
       <p><span class="footer__text">Michał Kidawa &copy; 2018</span></p>

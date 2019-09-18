@@ -1,6 +1,5 @@
 .parallax {
 
-    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -9,7 +8,18 @@
 
     &--hero {
       min-height: 100vh;
-      background-image: url('../../assets/images/underwater-overlay.jpg');
+      background-image: url('../../assets/images/viewfinder.png');
+      position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,.3);
+         }
     }
 
     &--recommendations {

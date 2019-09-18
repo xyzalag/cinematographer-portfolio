@@ -1,0 +1,67 @@
+.hamburger {
+
+    $hamburger-line-height: 1.5px;
+
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    transform: rotate(0deg) translateY(-50%);
+    cursor: pointer;
+
+    z-index: 9999;
+
+    &:not(.collapsed) {
+      position: fixed;
+      top: 10px;
+      right: 5%;
+
+      @mixin atMedium {
+        top: 30px;
+      }
+    }
+
+& span {
+      display: block;
+      position: absolute;
+      height: $hamburger-line-height;
+      width: 100%;
+      background: #fff;
+      opacity: 1;
+      right: 0;
+      transform: rotate(0deg);
+      transition: .25s ease-in-out;
+  }
+
+&.collapsed span {
+     transform: rotate(0deg) !important;
+ }
+
+& span:nth-child(1) {
+      top: 9px;
+      transform: rotate(135deg);
+  }
+
+& span:nth-child(2) {
+      opacity: 0;
+      top: 10px;
+      right: 60px;
+  }
+
+& span:nth-child(3) {
+      top: 9px;
+      transform: rotate(-135deg);
+  }
+
+&.collapsed span:nth-child(1) {
+     top: 0;
+ }
+
+&.collapsed span:nth-child(2) {
+     right: 0;
+     opacity: 1;
+ }
+
+&.collapsed span:nth-child(3) {
+     top: 20px;
+ }
+}

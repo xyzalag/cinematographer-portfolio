@@ -11,7 +11,7 @@
 
 
  	&__bg {
-	 	background-image: url("../../assets/images/underwater-overlay.jpg");
+	 	background-image: url("../../assets/images/viewfinder.png");
 	    background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
@@ -22,8 +22,8 @@
  	}
 
  	&__logo {
- 		width: 250px;
- 		height: 110px;
+ 		width: 300px;
+ 		height: auto;
  		display: block;
  		margin: 0 auto;
  		margin-top: 70px;
@@ -31,18 +31,12 @@
 
 
  		@mixin atSmall {
- 			width: 350px;
- 			height: 175px;
  		}
 
  		@mixin atMedium {
- 			width: 500px;
- 			height: 250px;
  		}
 
  		@mixin atLarge {
- 			width: 550px;
- 			height: 300px;
  			margin-top: 60px;
             margin-bottom: 30px;
  		}
@@ -53,7 +47,7 @@
 		@mixin atLarge {
 			margin-top: 50px;
 		}
-		
+
 	}
 
 	&__col {

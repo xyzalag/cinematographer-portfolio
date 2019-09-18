@@ -1,0 +1,42 @@
+.main-header {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+ /*   padding: 60px 20px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.cover {
+        background-color: #000;
+    }
+
+    @mixin atMedium {
+/*        padding: 0 80px;*/
+        height: 120px;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        max-width: 100%;
+        max-width: 220px;
+        height: auto;
+
+        @mixin atSmall {
+            max-width: 300px;
+        }
+
+        @mixin atMedium {
+            max-width: 380px;
+        }
+    }
+}
