@@ -58,7 +58,7 @@ gulp.task('useminTrigger', ['deleteDistFolder'], function() {
 });
 
 gulp.task('usemin',['styles', 'scripts'], function() {
-  return gulp.src(["./app/index.html", "./app/about.html", "./app/contact.html","./app/commerce.html","./app/music-videos.html","./app/film.html"])
+  return gulp.src(["./app/index.html", "./app/about.html", "./app/contact.html","./app/commerce.html","./app/music-videos.html","./app/film.html","./app/about-en.html"])
     .pipe(usemin({
       css: [function(){return rev()}, function() {return cssnano()}],
       js: [function() {return rev()}, function() {return uglify()}]

@@ -1,0 +1,18 @@
+.language-switch {
+    margin-right: 10px;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+    a.active {
+         font-weight: 600;
+     }
+
+    @mixin atMedium {
+        margin-right: 40px;
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+}

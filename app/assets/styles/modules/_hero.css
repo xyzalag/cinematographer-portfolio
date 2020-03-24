@@ -1,7 +1,7 @@
 .hero {
     width: 100vw;
     height: 100vh;
-    background-image: url('../../assets/images/viewfinder-mobile.jpg');
+    background-image: url('../../assets/images/hero-mobile.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     flex-direction: column;
 
     @mixin atMedium {
-      background-image: url('../../assets/images/viewfinder.png');
+      background-image: url('../../assets/images/hero.png');
       background-size: cover;
       align-items: flex-start;
       justify-content: flex-end;
@@ -34,7 +34,7 @@
       }
 
       .hero__btn {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         text-align: center;
       }
     }
@@ -57,11 +57,6 @@
           width: 600px;
         }
       }
-
-      @mixin atLarger {
-        width: 500px;
-        padding: 50px 60px;
-      }
     }
 
     &__title {
@@ -73,7 +68,7 @@
         margin: 30px 0 40px 0;
 
         @mixin atMedium {
-          font-size: 4rem;
+          font-size: 3rem;
         }
     }
 
@@ -88,15 +83,11 @@
         font-size: 1.2rem;
         color: white;
         letter-spacing: 5px;
+        line-height: 0.5;
 
         @mixin atMedium {
-          font-size: 2rem;
+          font-size: 1.5rem;
           padding: 1.1rem 1.9rem;
-        }
-
-        @mixin atLarger {
-          font-size: 2rem;
-          padding: 1.3rem 2.1rem;
         }
 
         &:hover{

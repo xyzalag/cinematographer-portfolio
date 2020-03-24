@@ -1,8 +1,18 @@
 .footer {
   background-color: #000;
   color: #FFF;
-  padding: .5rem 0;
+  padding: 1rem 0;
   text-align: center;
+
+  &__content {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+      @mixin atMedium {
+        flex-direction: row;
+      }
+   }
 
   &__text {
     display: block;

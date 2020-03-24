@@ -1,12 +1,10 @@
 .main-header {
     background-color: rgba(0, 0, 0, .5);
     width: 100vw;
- /*   padding: 60px 20px;*/
     position: absolute;
     top: 0;
     left: 0;
-    height: 60px;
-    display: block;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +14,6 @@
     }
 
     @mixin atMedium {
-/*        padding: 0 80px;*/
         height: 120px;
     }
 
@@ -26,8 +23,23 @@
         align-items: center;
     }
 
+    .header-right-wrapper {
+
+        @mixin atMedium {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icons {
+            display: none;
+
+            @mixin atMedium {
+                display: block;
+            }
+        }
+    }
+
     &__logo {
-        max-width: 100%;
         max-width: 220px;
         height: auto;
 

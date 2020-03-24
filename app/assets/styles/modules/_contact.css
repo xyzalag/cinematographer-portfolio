@@ -11,7 +11,7 @@
   text-transform: uppercase;
 
   @mixin atMedium {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 3px;
   }
 }
