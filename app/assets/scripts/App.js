@@ -10,10 +10,13 @@ import Projects from './modules/projects';
 document.addEventListener('DOMContentLoaded', () => {
     new SocialLinks();
 
-    const projectsPages = ['/commerce.html', '/film.html', '/music-videos.html']
-    if (projectsPages.includes(location.pathname)) {
+    const projectsPages = ['commerce.html', 'film.html', 'music-videos.html']
+    let currentPage = location.pathname.split('/');
+    currentPage = currentPage[currentPage.length-1].toLowerCase();
+
+    if (projectsPages.includes(currentPage)) {
         new Projects(location.pathname);
-    };
+    }
 });
 
 

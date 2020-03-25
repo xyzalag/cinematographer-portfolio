@@ -22,11 +22,10 @@ class SocialLinks {
         const linkVimeo = data['socials']['vimeo'];
         const linkYoutube = data['socials']['youtube'];
         const linkInstagram = data['socials']['instagram'];
-
         const markup =  `
-            <a hre{linkVimeo}" class="icon"><i class="fa fa-2x fa-vimeo" aria-hidden="true"></i></a>
+            <a href="${linkVimeo}" class="icon"><i class="fa fa-2x fa-vimeo" aria-hidden="true"></i></a>
             <a href="${linkYoutube}" class="icon"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a>
-            <a href="${linkInstagram}" class="icon"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>f="$
+            <a href="${linkInstagram}" class="icon"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
         `;
 
         this._appendMarkup(markup);
