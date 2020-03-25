@@ -44,7 +44,7 @@
             "video_link" : "https://www.youtube.com/watch?v=bIrHF4gdNdM"
          }
       ],
-    "films" : [
+    "film" : [
                {
             "title" : "Simia",
             "thumbnail" : "film-1.jpg",
@@ -88,7 +88,7 @@
             "video_link" : "https://www.youtube.com/watch?v=QLUDcpJ-lzc"
          }
     ],
-    "music_videos" : [
+    "music-videos" : [
           {
             "title" : "Mateusz Ziółko<br>\"Szkło\"",
             "thumbnail" : "clips-1.jpg",
@@ -132,5 +132,10 @@
             "video_link" : "https://www.youtube.com/watch?v=d0GUhIUsbVQ"
          }
     ]
-   }
+   },
+  "socials" : {
+    "vimeo" : "https://vimeo.com/showcase/5155055",
+    "youtube": "https://www.youtube.com/channel/UCwgl38bDjJag2wI9naUzJuQ",
+    "instagram": "https://www.instagram.com/kamerzysta_michal/"
+  }
 }

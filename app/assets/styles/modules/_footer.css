@@ -4,6 +4,12 @@
   padding: 1rem 0;
   text-align: center;
 
+  .wrapper {
+    @mixin atMedium {
+        padding: 0 120px;
+    }
+  }
+
   &__content {
      display: flex;
      flex-direction: column;
