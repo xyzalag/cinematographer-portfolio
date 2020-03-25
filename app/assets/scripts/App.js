@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     currentPage = currentPage[currentPage.length-1].toLowerCase();
 
     if (projectsPages.includes(currentPage)) {
-        new Projects(location.pathname);
+        new Projects(currentPage);
     }
 });
 

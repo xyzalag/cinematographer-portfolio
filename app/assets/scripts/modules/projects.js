@@ -3,8 +3,7 @@ import { fetch } from 'whatwg-fetch';
 class Projects {
 
     constructor (category) {
-
-        this.category = category.split('.')[0].split('/')[1];
+        this.category = category.split('.')[0];
         this.projectImagesPath = `assets/images/${this.category}/`;
         this.container = document.getElementById('container');
 
