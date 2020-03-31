@@ -27,8 +27,11 @@
 
 	&__links {
 		height: 100%;
-		padding: 20px;
+		padding: 50px;
 
+	 	@mixin atMedium {
+			padding: 20px;
+		}
 
 		a {
 			text-decoration: none;
@@ -50,12 +53,17 @@
 		}
 
 		li {
-			height: 20%;
 			background-color: transparent;
 			list-style: none;
 			display: flex;
-			align-items: center;
+			align-content: space-between;
 			justify-content: center;
+			height: 19%;
+
+			@mixin atMedium {
+				height: 20%;
+				align-items: center;
+			}
 		}
 	}
 

@@ -14,16 +14,6 @@
 		margin-bottom: 60px;
 	}
 
-	&--bg {
-
-		&:hover{
-			background-image: url('../../assets/images/color_palette.png');
-    		background-size: cover;
-   			background-position: center;
-			background-repeat: no-repeat;
-		}
-	}
-
 	&:hover {
 		border: 1px solid black;
 		color: white;
@@ -145,9 +135,15 @@
 
 	&__title {
 		text-align: center;
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 		letter-spacing: 1px;
-		font-weight: 300;
+		font-weight: 100;
+	 	text-transform: uppercase;
+
+	 	@mixin atMedium {
+			font-size: 1.8rem;
+			font-weight: 300;
+		}
 
 		&--bg {
 			font-size: 1.8rem;

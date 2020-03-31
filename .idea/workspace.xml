@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f53b906e-1ded-430d-bc55-0ad7d0886438" name="Default Changelist" comment="Fix pathname">
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/hero.png" afterDir="false" />
+    <list default="true" id="f53b906e-1ded-430d-bc55-0ad7d0886438" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/scripts/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scripts/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/scripts/modules/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scripts/modules/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/temp/scripts/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/scripts/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about-en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/base/_global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/base/_global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/base/_variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/base/_variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_about.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_hero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_project.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_sidenav-hidden.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_sidenav-hidden.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/commerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/film.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/film.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/music-videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/music-videos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/temp/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about-en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/scripts/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/style/style-408821eac2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/commerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/film.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/film.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/music-videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/music-videos.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,33 +42,33 @@
     <session id="1025838180">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="57" />
-          <entry key="html" value="77" />
-          <entry key="js" value="26" />
+          <entry key="css" value="80" />
+          <entry key="html" value="101" />
+          <entry key="js" value="29" />
           <entry key="json" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="57" />
-          <entry key="HTML" value="77" />
+          <entry key="CSS" value="80" />
+          <entry key="HTML" value="101" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="26" />
+          <entry key="JavaScript" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4069" />
-          <entry key="html" value="1012" />
+          <entry key="css" value="5710" />
+          <entry key="html" value="1159" />
           <entry key="js" value="3514" />
           <entry key="json" value="64" />
           <entry key="txt" value="198" />
@@ -52,8 +76,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4069" />
-          <entry key="HTML" value="1058" />
+          <entry key="CSS" value="5710" />
+          <entry key="HTML" value="1205" />
           <entry key="JSON" value="64" />
           <entry key="JavaScript" value="3468" />
           <entry key="PLAIN_TEXT" value="198" />
@@ -64,49 +88,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/film.html">
+        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="158" column="34" selection-start-line="158" selection-start-column="34" selection-end-line="158" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp/tasks/build.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="321">
+              <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/projects.js">
+        <entry file="file://$PROJECT_DIR$/app/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/scripts/App.js">
+        <entry file="file://$PROJECT_DIR$/app/about-en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="e#73#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/scripts/data/about.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="109">
+              <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -128,42 +131,45 @@
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_sidenav.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_large-hero.css" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/SidenavToggle.js" />
-        <option value="$PROJECT_DIR$/docs/film.html" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_hamburger.css" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/LoadContent.js" />
         <option value="$PROJECT_DIR$/docs/about-en.html" />
         <option value="$PROJECT_DIR$/app/assets/styles/base/_mixins.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/base/_global.css" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_project.css" />
         <option value="$PROJECT_DIR$/app/about-en.html" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_language-switch.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_sidenav-hidden.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_hero.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_home.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_main.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/base/_variables.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/style.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_about.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_contact.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_header.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_footer.css" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/socialLinks.js" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_social-icons.css" />
-        <option value="$PROJECT_DIR$/app/about.html" />
-        <option value="$PROJECT_DIR$/app/about-en.html" />
-        <option value="$PROJECT_DIR$/app/commerce.html" />
-        <option value="$PROJECT_DIR$/app/contact.html" />
-        <option value="$PROJECT_DIR$/app/film.html" />
-        <option value="$PROJECT_DIR$/app/music-videos.html" />
         <option value="$PROJECT_DIR$/app/assets/scripts/data.json" />
         <option value="$PROJECT_DIR$/gulp/tasks/build.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/social-links.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/data/about.json" />
         <option value="$PROJECT_DIR$/app/assets/scripts/App.js" />
         <option value="$PROJECT_DIR$/app/assets/scripts/modules/projects.js" />
+        <option value="$PROJECT_DIR$/app/about-en.html" />
+        <option value="$PROJECT_DIR$/app/commerce.html" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_header.css" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_home.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_sidenav-hidden.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_contact.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_hero.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/style.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/base/_variables.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/base/_global.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_main.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_project.css" />
+        <option value="$PROJECT_DIR$/docs/commerce.html" />
+        <option value="$PROJECT_DIR$/docs/contact.html" />
+        <option value="$PROJECT_DIR$/docs/film.html" />
+        <option value="$PROJECT_DIR$/docs/music-videos.html" />
+        <option value="$PROJECT_DIR$/app/contact.html" />
+        <option value="$PROJECT_DIR$/app/film.html" />
+        <option value="$PROJECT_DIR$/app/music-videos.html" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_about.css" />
+        <option value="$PROJECT_DIR$/app/about.html" />
       </list>
     </option>
   </component>
@@ -320,14 +326,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinematographer-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinematographer-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,32 +341,15 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinematographer-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinematographer-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinematographer-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinematographer-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinematographer-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinematographer-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinematographer-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinematographer-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cinematographer-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cinematographer-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cinematographer-portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -393,8 +374,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/assets/scripts" />
       <recent name="$PROJECT_DIR$/docs/assets/images" />
+      <recent name="$PROJECT_DIR$/docs/assets/scripts" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
@@ -471,7 +452,9 @@
       <workItem from="1547996542539" duration="2147000" />
       <workItem from="1548272530544" duration="12271000" />
       <workItem from="1584869983289" duration="14817000" />
-      <workItem from="1585043453374" duration="21391000" />
+      <workItem from="1585043453374" duration="21673000" />
+      <workItem from="1585251647112" duration="3161000" />
+      <workItem from="1585682369486" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="Various adjustments">
       <created>1585008466317</created>
@@ -501,24 +484,31 @@
       <option name="project" value="LOCAL" />
       <updated>1585139881207</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix pathname">
+      <created>1585140594070</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585140594070</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50626000" />
+    <option name="totallyTimeSpent" value="56096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7108209" visible="true" weight="0.23819743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8514548" visible="true" weight="0.23819743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" sideWeight="0.28917912" side_tool="true" visible="true" weight="0.23819743" />
+      <window_info id="Gulp" order="2" sideWeight="0.14854518" side_tool="true" weight="0.23819743" />
       <window_info id="npm" order="3" sideWeight="0.11700468" side_tool="true" weight="0.23819743" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35421687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.213253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,14 +524,14 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8465991" visible="true" weight="0.23819743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8514548" visible="true" weight="0.23819743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" sideWeight="0.15340087" side_tool="true" weight="0.23819743" />
-      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Gulp" order="2" sideWeight="0.14854518" side_tool="true" visible="true" weight="0.23819743" />
+      <window_info id="npm" order="3" sideWeight="0.11700468" side_tool="true" weight="0.23819743" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16746987" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.213253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,30 +563,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fix pathname" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_large-hero.css" />
-    <entry file="file://$PROJECT_DIR$/docs/music-videos.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/commerce.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/film.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_scroll-btn.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_project.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1466">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_parallax.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -607,13 +573,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66042" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_mixins.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_main-full.css">
@@ -637,41 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_sidenav-hidden.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_hero.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -681,41 +605,6 @@
     <entry file="file://$PROJECT_DIR$/app/temp/styles/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="188" column="13" selection-start-line="188" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_contact.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_wrapper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -723,24 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -758,48 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-826">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/about-en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/commerce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2490">
-          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/music-videos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/SidenavToggle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/SidenavToggle.js" />
     <entry file="file://$PROJECT_DIR$/app/assets/scripts/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2115">
@@ -813,53 +647,20 @@
     <entry file="file://$PROJECT_DIR$/gulp/tasks/scripts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/scripts/App-3094e19ad7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret column="100009" selection-start-column="100004" selection-end-column="100009" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/social-links.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/data/projects.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1641" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/scripts/App-f4ef77d92e.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/film.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="158" column="34" selection-start-line="158" selection-start-column="34" selection-end-line="158" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/scripts/App-3094e19ad7.js" />
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/data/projects.json" />
+    <entry file="file://$PROJECT_DIR$/docs/assets/scripts/App-f4ef77d92e.js" />
     <entry file="file://$PROJECT_DIR$/gulp/tasks/build.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -870,20 +671,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scripts/App.js">
+    <entry file="file://$PROJECT_DIR$/app/commerce.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#73#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_hero.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_sidenav-hidden.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="126" column="32" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_mixins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_scroll-btn.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/film.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/music-videos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/about-en.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/commerce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/music-videos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/film.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/modules/social-links.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="177" column="34" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/about-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>

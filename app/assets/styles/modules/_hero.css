@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     background-image: url('../../assets/images/hero-mobile.jpg');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +13,7 @@
 
     @mixin atMedium {
       background-image: url('../../assets/images/hero.png');
+        background-attachment: fixed;
       background-size: cover;
       align-items: flex-start;
       justify-content: flex-end;
@@ -41,11 +42,12 @@
 
     &__content {
       background-color: pink;
-      padding: 10px 20px;
+      padding: 50px 20px 100px;
       width: 90%;
       margin: 0 auto;
       text-align: center;
       background-color: rgba(0, 0, 0, .5);
+     text-transform: uppercase;
 
       @mixin atMedium {
         padding: 30px 40px;

@@ -3,8 +3,13 @@ html {
 }
 
 body {
-  font-family: Basic;
+  font-family: $secondary-font;
+  font-weight: 200;
   color: #333;
+
+  @mixin atMedium {
+    font-family: $primary-font;
+  }
 
   &.cover {
     background-color: #000;

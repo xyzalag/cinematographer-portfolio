@@ -1,7 +1,7 @@
 @import "normalize.css";
+@import "base/_mixins.css";
 @import "base/_variables.css";
 @import "base/_global.css";
-@import "base/_mixins.css";
 @import "../../../node_modules/bootstrap-4-grid/css/grid.min.css";
 @import "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css";
 @import "modules/_home.css";
