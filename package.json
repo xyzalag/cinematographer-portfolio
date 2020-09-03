@@ -46,7 +46,7 @@
     "gulp-usemin": "^0.3.29",
     "gulp-watch": "^5.0.1",
     "json-loader": "^0.5.7",
-    "lazysizes": "^4.0.2",
+    "lazysizes": "^5.2.1",
     "picturefill": "^3.0.2",
     "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^11.1.0",
